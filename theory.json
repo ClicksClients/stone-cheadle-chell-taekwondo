@@ -1,0 +1,220 @@
+{
+    "0": {
+        "belt": "White Belt (Junior)",
+        "cols": ["ffffff"],
+        "linework": [
+            "Forwards: Right W.S. obverse punch. Gunnon sogi-baro jirugi",
+            "Backwards: W.S. obverse punch. Gunnon sogi-baro jirugi",
+            "Forwards: Left W.S. low outer forearm block. Gunnon sogi-najunde bakat palmok makgi",
+            "Backwards: W.S. low outer forearm block. Gunnon sogi-najunde bakat palmok makgi",
+            "Forwards: Left W.S. middle inner forearm block. Gunnon sogi-kaunde an palmok makgi",
+            "Backwards: W.S. middle inner forearm block. Gunnon sogi-kaunde an palmok makgi"
+        ],
+        "cards": [
+            "10kw1",
+            "10kw2"
+        ]
+    },
+    "1": {
+        "belt": "Purple Stripe (Junior)",
+        "cols": ["ffffff", "B258A3"],
+        "linework": [
+            "Forwards: Left W.S. Low Knifehand block. Gunnon sogi-najunde sonkal makgi",
+            "Backwards: W.S. Low Knifehand block. Gunnon sogi-najunde sonkal makgi",
+            "Forwards: W.S. Rising Block. Gunnon sogi-chookyo makgi",
+            "Backwards: W.S. Rising Block. Gunnon sogi-chookyo makgi"
+        ],
+        "cards": [
+            "10kp1",
+            "10kp2"
+        ]
+    },
+    "2": {
+        "belt": "Orange Stripe (Junior)",
+        "cols": ["ffffff", "E5AB71"],
+        "linework": [
+            "Forwards: Left W.S. rising block, reverse punch. Gunnon sogi-chookyo makgi",
+            "Backwards: Left W.S. rising block, reverse punch. Gunnon sogi-chookyo makgi",
+            "Forwards: W.S. Open Fist reverse punch. Gunnon sogi-pyun joomuk bandae jirugi",
+            "Backwards: W.S. Open Fist reverse punch. Gunnon sogi-pyun joomuk bandae jirugi"
+        ],
+        "cards": [
+            "10ko1",
+            "10ko2"
+        ]
+    },
+    "3": {
+        "belt": "White Belt (Senior)",
+        "cols": ["ffffff"],
+        "linework": [
+            "Forwards: Right W.S. obverse punch. Gunnon sogi-baro jirugi",
+            "Backwards: W.S. obverse punch. Gunnon sogi-baro jirugi",
+            "Forwards: Left W.S. low outer forearm block. Gunnon sogi-najunde bakat palmok makgi",
+            "Backwards: W.S. low outer forearm block. Gunnon sogi-najunde bakat palmok makgi",
+            "Forwards: Left W.S. middle inner forearm block. Gunnon sogi-kaunde an palmok makgi",
+            "Backwards: W.S. middle inner forearm block. Gunnon sogi-kaunde an palmok makgi"
+        ],
+        "cards": [
+            "10k1",
+            "10k2"
+        ]
+    },
+    "4": {
+        "belt": "Yellow Stripe",
+        "cols": ["ffffff", "F2D478"],
+        "linework": [
+            "Forwards: Left L.S. Knife-hand Strike. Niunja sogi-sonkal taerigi",
+            "Backwards: L.S. Knifehand guarding block. Niunja sogi-sonkal daebi makgi",
+            "Forwards: W.S. middle inner forearm block, reverse punch. Gunnon sogi-kaunde an palmok, makgi, bandae jirugi",
+            "Backwards: W.S. Low block, rising block. Gunnon sogi-najunde makgi, chookyo makgi",
+            "Forwards: L.S. Twin forearm block. Niunja sogi-sang palmok makgi",
+            "Backward: W.S. outer forearm low block, reverse punch. Najunde baket palmok makgi, bandae jirugi"
+        ],
+        "cards": [
+            "9k1",
+            "9k2"
+        ]
+    },
+    "5": {
+        "belt": "Yellow Belt",
+        "cols": ["F2D478"],
+        "linework": [
+            "Forwards: Right W.S. Straight fingertip thrust. Gunnon sogi-Sun sonkut tuligi",
+            "Backwards: W.S. Middle side backfist. Gunnon sogi-kaunde yop dung joomuk",
+            "Forwards: W.S. outer forearm wedging block. Gunnon sogi-bakat palmok hechyo makgi.",
+            "Forwards: Front snap kick, double punch. Ap cha busigi, doo jirugi",
+            "Forwards: Side piercing kick. Yop cha jirugi",
+            "Backwards: W.S. outer forearm high block, reverse middle punch. Gunnon sogi-bakat palmok nopunde makgi, bandae jirugi",
+            "Forwards: L.S. Middle reverse punch. Niunja sogi-kounde bandae jirgi",
+            "Backwards: L.S. outer forearm inward block. Niunja sogi-bakat polmock anaero makgi"
+        ],
+        "cards": [
+            "8k1",
+            "8k2"
+        ]
+    },
+    "6": {
+        "belt": "Green Stripe",
+        "cols": ["F2D478", "60B258"],
+        "linework": [
+            "Forwards: Right Turning kick, L.S. guarding block. Dollyo chagi, niunja sogi-polmok daebi makgi",
+            "Backwards: Fixed stance side punch. Gojong sogi-yop jirugi",
+            "Forwards: W.S. Circular block. Gunnon sogi-dollimyo makgi",
+            "Backwards: Back Piercing kick, L.S. guarding block. Dwit cha jirugi, niunja sogi-palmok daebi makgi",
+            "Forwards: Bending stance, side kick, L.S. guarding block. Guburyo junbi sogi A-yop chagi, niunja sogi-palmok daebi makgi",
+            "Backward: L.S Twin Knifehand block. Niunja sogi-sang sonkal makgi"
+        ],
+        "cards": [
+            "7k1",
+            "7k2"
+        ]
+    },
+    "7": {
+        "belt": "Green Belt",
+        "cols": ["60B258"],
+        "linework": [
+            "Forwards: Left W.S. Palm high hooking block, hooking block, obverse punch. Gunnon sogi, Sonbadak nopunde golcho makgi, golcho makgi, baro jirugi",
+            "Backwards: L.S. Palm upward block. Niunja sogi-Sonbadak ollyo makgi",
+            "Forwards: W.S. X fist pressing block, twin vertical punch. Gunnon sogi-kyocha joomuk noollo makgi, Sang sewo jirugi",
+            "Backwards: W.S. Double forearm high block. Gunnon sogi-doo palmok nopunde makgi",
+            "Forwards: W.S. Flat fingertip thrust. Gunnon sogi-opun sonkut tulgi",
+            "Backward: W.S. Double punch. Gunnon sogi-doo jirugi",
+            "Forward W.S. Twin upset punch. Gunnnon sogi-sang dwijibo jirugi",
+            "Backwards: L.S. Side elbow thrust. Niunja sogi-yop palkup tulgi"
+        ],
+        "cards": [
+            "6k1",
+            "6k2"
+        ]
+    },
+    "8": {
+        "belt": "Blue Stripe",
+        "cols": ["60B258", "6576CC"],
+        "linework": [
+            "Forwards: Left Low stance. Palm pressing block. Nachuo sogi-sonbadak noollo makgi",
+            "Backwards: L.S. Sidefist side strike. Niunja sogi-yop joomuk yop taerigi",
+            "Forwards: Fixed stance. U shaped block. Gojong sogi-digutcha makgi",
+            "Backwards: W.S. X fist rising block. Gunnon sogi-kyocha joomuk chookyo makgi",
+            "Forwards: W.S. Reverse Angle Punch. Gunnon sogi-bandae giokja jirugi",
+            "Backwards: L.S. Reverse knifehand middle block. Niunja sogi-sonkal dung kaunde makgi",
+            "Forwards: L.S. Knifehand guarding block, footshift to W.S. upper elbow strike. Niunja sogi-sonkal daebi makgi, jajun bal, gunnon sogi-wi palkup taerigi",
+            "Backwards: L.S. Double step, knifehand guarding block. (Change stance). Ibo omgyo didigi Niunja sogi-sonkal daebi makgi",
+            "Forwards: Reverse turning kick then perform a L.S. forearm guarding block. Bandae dollyo chagi, niunja sogi-palmok daebi makgi",
+            "Backwards: W.S. Archand high strike. Gunnon sogi-bandalson nopunde taerigi"
+        ],
+        "cards": [
+            "5k1",
+            "5k2"
+        ]
+    },
+    "9": {
+        "belt": "Blue Belt",
+        "cols": ["6576CC"],
+        "linework": [
+            "Forwards: Moving on left leg, Sitting stance W shape block. Annun sogi-san makgi",
+            "Backwards: L.S. Double forearm pushing block. Niunja sogi-doo palmok miro makgi",
+            "Forwards: Downward kick then perform a L.S. guarding block. Naeryo chagi, niunja sogi-palmok daebi makgi",
+            "Backwards: L.S. Low knifehand block, footshift, W.S. circular block. Niunja sogi-najunde sonkal makgi, jajun bal, gunnon sogi-dollimyo makgi",
+            "Forwards: Sidekick, Back kick, W.S. reverse punch, footshift, guarding block Yopcha Jirugi, Dwitcha Jirugi, gunnon sogi-bandae jirugi, jajun bal, palmok daebi makgi",
+            "Backwards: W.S. Upset fingertip thrust. Gunnon sogi-dwijibun sonkut tulgi",
+            "Forwards: Turningkick, reverse turningkick, W.S. rev knifehand high rev strike.Guard Dollyo chagi, bandae dollyo chagi, gunnon sogi-sonkal dung nopunde taerigi, jajun bal, palmok daebi makgi",
+            "Backwards: L.S. Side backfist and a low outer forearm block. Niunja sogi-yop dung joomuk, najunde bakat palmok makgi"
+        ],
+        "cards": [
+            "4k1",
+            "4k2"
+        ]
+    },
+    "10": {
+        "belt": "Red Stripe",
+        "cols": ["6576CC", "F27878"],
+        "linework": [
+            "Forwards: From Rt. L.S. Guarding block. Frontkick off front leg, turningkick off the rear leg. Ap cha busigi, dollyo chagi",
+            "Backwards: L.S. Upward punch. Niunja sogi-ollyo jirugi",
+            "Forwards: Frontkick-sidekick with the same leg. Ap cha busigi, yop chagi",
+            "Forwards: Sliding into- Fixed stance side punch, then pull back into Vertical stance downward knifehand strike. Mikulgi-gojong sogi-yop jirugi, soojik sogi-naeryo sonkal taerigi",
+            "Forwards: W.S. punch, grab hand, release with sidekick, perform L.S. knifehand strike. Gunnon sogi-baro jirugi, jappyolsol tae, yop chagi, niunja sogi-sonkal taerigi",
+            "Backwards: L.S. Obverse punch. Niunja sogi-baro jirugi",
+            "Forwards: Front leg, hookingkick – sidekick, then using back leg, cresentkick–sidekick, L.S. guarding block. Golcho chagi, yop chagi, bandal chagi, yop chagi, niunja sogi-palmok daebi makgi",
+            "Forwards: Double step sidekick. To change stance perform a single step. Ibo omgyo didigi yop chagi",
+            "Forwards: Double step turningkick. To change stance perform a single step. Ibo omgyo didigi dollyo chagi"
+        ],
+        "cards": [
+            "3k1",
+            "3k2"
+        ]
+    },
+    "11": {
+        "belt": "Red Belt",
+        "cols": ["F27878"],
+        "linework": [
+            "Forwards: Rt.LS. Guarding block, hookingkick-sidekick off the front leg, reverse turning hooking, kick off the back. Golcho chagi, yop chagi, bandae dollyo goro chagi",
+            "Backwards: WS. Knifehand high front strike bringing backhand in front of head. Gunnon sogi-sonkal nopunde ap taerigi",
+            "Forwards: Flying sidekick in a double stepping motion, execute a knife hand guarding block. Twimyo yop chagi, niunja sogi-sonkal daebi makgi",
+            "Backwards: LS. X knifehand middle checking block. Niunja sogi-kyocha sonkal momchau makgi",
+            "Forwards: Turningkick, then reverse turningkick – turningkick on the same leg. Dollyo chagi, bandae dollyo chagi, dollyo chagi",
+            "Backwards: WS. Twin palm upward block. Gunnon sogi-sang sonbadak ollyo makgi",
+            "Forwards: LS. Guarding block, double step hookingkick off the front leg.To change stance perform, a single step. Ibo omgyo didigi, bandae dollyo goro chagi",
+            "Backwards: SS. Middle front outer forearm block and then a high side backfist. Annun sogi-kaunde ap bakat palmok makgi, nopunde yop dung joomuk",
+            "Forwards: Frontkick – downwardkick on the same leg. Ap cha busigi, naeryo chagi",
+            "Forwards: Flying frontkick off the back leg. Twimyo ap chagi"
+        ],
+        "cards": [
+            "2k1",
+            "2k2"
+        ]
+    },
+    "12": {
+        "belt": "Black Stripe",
+        "cols": ["F27878", "424242"],
+        "linework": [],
+        "cards": [
+            "1k1",
+            "1k2",
+            "1k3",
+            "1k4",
+            "1k5",
+            "1k6"
+        ]
+    }
+}
