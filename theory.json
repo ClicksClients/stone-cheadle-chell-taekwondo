@@ -91,6 +91,24 @@
         "cards": [
             "8k1",
             "8k2"
+        ],
+        "sparring": [
+            {
+                "number": "1",
+                "type": "3 Step",
+                "measure": "Right foot outside opponent's left foot, overlapping half way. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "Walking stance, middle section punch x 3.",
+                "defence": "Right leg back, Walking stance, inner forearm block to the inside x 3.",
+                "counter": "Left Walking stance, middle reverse punch"
+            },
+            {
+                "number": "2",
+                "type": "3 Step",
+                "measure": "Right foot outside opponent's left foot, heels overlapping. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "Walking stance, high section punch x 3.",
+                "defence": "Right leg back, Walking stance, front rising block x 3.",
+                "counter": "Left Walking stance, high reverse open fist strike."
+            }
         ]
     },
     "6": {
@@ -107,6 +125,24 @@
         "cards": [
             "7k1",
             "7k2"
+        ],
+        "sparring": [
+            {
+                "number": "3",
+                "type": "3 Step",
+                "measure": "Right foot between opponent's feet, overlapping half way. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "L stance, middle section reverse punch x 3.",
+                "defence": "Left leg back, L stance, twin forearm block to the outside x 3.",
+                "counter": "Left L stance, middle reverse punch to the ribs"
+            },
+            {
+                "number": "4",
+                "type": "3 Step",
+                "measure": "Right foot inside opponent's feet, close to the opponent's left foot. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "L stance, middle knifehand strike x 3.",
+                "defence": "Right leg back, L stance, middle inward outer forearm block x 3.",
+                "counter": "Front leg, middle side front snap kick, setepping back into guarding block."
+            }
         ]
     },
     "7": {
@@ -125,6 +161,24 @@
         "cards": [
             "6k1",
             "6k2"
+        ],
+        "sparring": [
+            {
+                "number": "5",
+                "type": "3 Step",
+                "measure": "Right foot outside opponent's left foot, heels overlapping. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "Walking stance, high section punch x 3.",
+                "defence": "Right leg back, Walking stance, inner forearm block to the inside x 3.",
+                "counter": "Left Walking stance middle reverse punch, stepping back into a Guarding Block."
+            },
+            {
+                "number": "6",
+                "type": "3 Step",
+                "measure": "Right foot outside opponent's left foot, heel to toe. Attacker steps back into a Walking Stance Low Block.",
+                "attack": "L stance, middle section reverse punch x 3.",
+                "defence": "Right leg back, L stance, middle knifehand guarding block to the inside x 3.",
+                "counter": "Front leg middle side kick stepping back into guarding block."
+            }
         ]
     },
     "8": {
@@ -145,6 +199,22 @@
         "cards": [
             "5k1",
             "5k2"
+        ],
+        "sparring": [
+            {
+                "number": "1",
+                "type": "2 Step",
+                "attack": "Step into Right Walking stance, high obverse punch, left low front snap kick.",
+                "defence": "Left leg back, Walking stance, rising block, right leg back walking stance x-fist pressing block.",
+                "counter": "Left Walking stance high twin vertical punch."
+            },
+            {
+                "number": "2",
+                "type": "2 Step",
+                "attack": "Right Fixed stance, right middle side punch, left middle turning kick.",
+                "defence": "Right leg back, L stance, upward palm block, left leg back L stance, middle waist block.",
+                "counter": "Sliding forward, right L stance, right side elbow strike."
+            }
         ]
     },
     "9": {
@@ -163,6 +233,22 @@
         "cards": [
             "4k1",
             "4k2"
+        ],
+        "sparring": [
+            {
+                "number": "3",
+                "type": "2 Step",
+                "attack": "Right low front snap kick, left walking stance high twin vertical punch.",
+                "defence": "Right leg back, Walking stance, x-fist pressing block, left leg back walking stance wedging block.",
+                "counter": "Left upward knee strike."
+            },
+            {
+                "number": "4",
+                "type": "2 Step",
+                "attack": "Right walking stance, right high flat fingertip thrust, left middle side kick.",
+                "defence": "Right leg back, Walking stance, left knife-hand rising block, left leg back L-stance, right inward palm block.",
+                "counter": "Any leg, depending on distance, front snap kick to coccyx, same leg forward walking stance twin upset punch to kidneys."
+            }
         ]
     },
     "10": {

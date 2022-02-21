@@ -430,28 +430,28 @@
                         about = pattern.about.join("<br />")
                         movements = pattern.movements.join("<br />")
                         out += `
-                  <div class="card">
-                    <div class="card-header" id="heading${index}" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
-                      <h2 class="mb-0">
-                        <button class="btn btn-link" type="button">
-                          <h3 style="color:black;text-decoration:none">${pattern.name}</h3>
-                        </button>
-                      </h2>
+                    <div class="card">
+                        <div class="card-header" id="heading${index}" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button">
+                            <h3 style="color:black;text-decoration:none">${pattern.name}</h3>
+                            </button>
+                        </h2>
+                        </div>
+                        <div id="collapse${index}" class="collapse" aria-labelledby="heading${index}" data-parent="#accordionExample3">
+                        <div class="card-body">
+                            <h3>Information</h3>
+                            <iframe width="50%" height="auto" src="https://www.youtube.com/embed/${pattern.video}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                            <br><br>
+                            <p>${about}</p>
+                            <h3>Diagram</h3>
+                            <img src="${pattern.diagram[0]}"/>
+                            <p>${pattern.diagram[1]}</p>
+                            <h3>Movements</h3>
+                            <p>${movements}</p>
+                        </div>
+                        </div>
                     </div>
-                    <div id="collapse${index}" class="collapse" aria-labelledby="heading${index}" data-parent="#accordionExample3">
-                      <div class="card-body">
-                        <h3>Information</h3>
-                        <iframe width="50%" height="auto" src="https://www.youtube.com/embed/${pattern.video}" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-                        <br><br>
-                        <p>${about}</p>
-                        <h3>Diagram</h3>
-                        <img src="${pattern.diagram[0]}"/>
-                        <p>${pattern.diagram[1]}</p>
-                        <h3>Movements</h3>
-                        <p>${movements}</p>
-                      </div>
-                    </div>
-                  </div>
                 `
                         n++
                     })
@@ -481,45 +481,63 @@
                     var n = 0
                     Object.keys(parsed).map(function (key, index) {
                         grade = parsed[key]
-                        linework = grade.linework.join("<br />").replaceAll("Forwards:", "<b>Forwards:</b>",).replaceAll("Backwards:", "<b>Backwards:</b>")
+                        linework = "<h3>Linework</h3>"
+                        linework += grade.linework.join("<br />").replaceAll("Forwards:", "<b>Forwards:</b>",).replaceAll("Backwards:", "<b>Backwards:</b>")
+                        sparring = ""
+                        if ( grade.sparring ) {
+                            sparring += "<h3>Sparring</h3>"
+                            grade.sparring.forEach(element => {
+                                sparring += `<br><b>${element.type} number ${element.number}</b>`
+                                if ( element.type == "3 Step" ) {
+                                    sparring += `<p style="margin-left: 10px; margin-bottom: 10px;"><b>Measure:</b> ${element.measure}</p>`
+                                }
+                                sparring += `<p style="margin-left: 10px; margin-bottom: 0px;"><b>Attack:</b> ${element.attack}</p>`
+                                sparring += `<p style="margin-left: 10px; margin-bottom: 0px;"><b>Defence:</b> ${element.defence}</p>`
+                                sparring += `<p style="margin-left: 10px; margin-bottom: 0px;"><b>Counter:</b> ${element.counter}</p>`
+                            });
+                        }
+                        sparring += "<br /><h3>Theory</h3>"
                         images = ""
                         grade.cards.forEach(function (entry) {
                             images += `<img style="width:100%;height=auto" src="./assets/theory/${entry}.jpg">`
                         });
                         out += `
                 <div class="card">
-                  <div
-                    class="card-header"
-                    id="headingx${n}"
-                    data-toggle="collapse"
-                    data-target="#collapsex${n}"
-                    aria-expanded="true"
-                    aria-controls="collapsex${n}"
-                  >
-                    <h2 class="mb-0">
-                      <button class="btn btn-link" type="button">
-                        <h3 style="color:black;text-decoration:none">
-                          ${grade.belt}
-                          <div style="width:100px; height:30px; background-color:${grade.cols[0]}; display:inline-block; border: 3px solid #424242">
-                            <div style="width:94px; height:8px; margin-top: 8px; background-color:${grade.cols.length > 1 ? grade.cols[1] : 'transparent'}; display:inline-block;"
-                          </div>
-                        </h3>
-                      </button>
-                    </h2>
-                  </div>
-                  <div
-                    id="collapsex${n}"
-                    class="collapse"
-                    aria-labelledby="headingx${n}"
-                    data-parent="#accordionExample4"
-                  >
-                    <div class="card-body">
-                      <p>
-                        ${linework}
-                      </p>
+                    <div
+                        class="card-header"
+                        id="headingx${n}"
+                        data-toggle="collapse"
+                        data-target="#collapsex${n}"
+                        aria-expanded="true"
+                        aria-controls="collapsex${n}"
+                    >
+                        <h2 class="mb-0">
+                        <button class="btn btn-link" type="button">
+                            <h3 style="color:black;text-decoration:none">
+                            ${grade.belt}
+                            <div style="width:100px; height:30px; background-color:${grade.cols[0]}; display:inline-block; border: 3px solid #424242">
+                                <div style="width:94px; height:8px; margin-top: 8px; background-color:${grade.cols.length > 1 ? grade.cols[1] : 'transparent'}; display:inline-block;"
+                            </div>
+                            </h3>
+                        </button>
+                        </h2>
                     </div>
-                    ${images}
-                  </div>
+                    <div
+                        id="collapsex${n}"
+                        class="collapse"
+                        aria-labelledby="headingx${n}"
+                        data-parent="#accordionExample4"
+                    >
+                        <div class="card-body">
+                        <p>
+                            ${linework}
+                        </p>
+                        <p>
+                            ${sparring}
+                        </p>
+                        </div>
+                        ${images}
+                    </div>
                 </div>
                 `
                         n++
