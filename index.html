@@ -483,6 +483,9 @@
                         grade = parsed[key]
                         linework = "<h3>Linework</h3>"
                         linework += grade.linework.join("<br />").replaceAll("Forwards:", "<b>Forwards:</b>",).replaceAll("Backwards:", "<b>Backwards:</b>")
+                        if (!grade.linework.length) {
+                            linework = ""
+                        }
                         sparring = ""
                         if ( grade.sparring ) {
                             sparring += "<h3>Sparring</h3>"
@@ -499,7 +502,7 @@
                         sparring += "<br /><h3>Theory</h3>"
                         images = ""
                         grade.cards.forEach(function (entry) {
-                            images += `<img style="width:100%;height=auto" src="./assets/theory/${entry}.jpg">`
+                            images += `<img style="width:100%;height=auto" src="./assets/theory/${entry}.png">`
                         });
                         out += `
                 <div class="card">

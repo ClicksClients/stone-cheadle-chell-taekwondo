@@ -11,8 +11,7 @@
             "Backwards: W.S. middle inner forearm block. Gunnon sogi-kaunde an palmok makgi"
         ],
         "cards": [
-            "10kw1",
-            "10kw2"
+            "10kj1"
         ]
     },
     "1": {
@@ -25,8 +24,7 @@
             "Backwards: W.S. Rising Block. Gunnon sogi-chookyo makgi"
         ],
         "cards": [
-            "10kp1",
-            "10kp2"
+            "10kj2"
         ]
     },
     "2": {
@@ -39,8 +37,8 @@
             "Backwards: W.S. Open Fist reverse punch. Gunnon sogi-pyun joomuk bandae jirugi"
         ],
         "cards": [
-            "10ko1",
-            "10ko2"
+            "10kj3",
+            "10kj4"
         ]
     },
     "3": {
@@ -295,12 +293,7 @@
         "cols": ["F27878", "424242"],
         "linework": [],
         "cards": [
-            "1k1",
-            "1k2",
-            "1k3",
-            "1k4",
-            "1k5",
-            "1k6"
+            "1k1"
         ]
     }
 }
